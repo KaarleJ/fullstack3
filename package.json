@@ -10,7 +10,8 @@
     "build:ui": "rm -rf build && cd ../fullstack/osa2.15-2.20/ && npm run build && cp -r build ../../fullstack3",
     "deploy": "flyctl deploy",
     "deploy:full": "npm run build:ui && npm run deploy",
-    "logs:prod": "flyctl logs"
+    "logs:prod": "flyctl logs",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -29,6 +30,7 @@
     "morgan": "^1.10.0"
   },
   "devDependencies": {
+    "eslint": "^8.30.0",
     "nodemon": "^2.0.20"
   }
 }
