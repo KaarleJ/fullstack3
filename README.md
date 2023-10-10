@@ -1,3 +1,5 @@
-# fullstackosa3
- 
-Tässä repositoriossa on osan 3 mukainen ohjelma. Linkki [sovellukseen](https://fsphonebook.fly.dev/)
+# fullstack part 3
+
+Thsi repository has a basic fullstack application completed as a part of fullstack part 3.
+
+Link to the application [sovellukseen](https://fsphonebook.fly.dev/)
